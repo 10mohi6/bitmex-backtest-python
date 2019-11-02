@@ -1,0 +1,1 @@
+from bitmex_backtest.bitmex_backtest import Backtest
