@@ -5,8 +5,9 @@
 [![codecov](https://codecov.io/gh/10mohi6/bitmex-backtest-python/branch/master/graph/badge.svg)](https://codecov.io/gh/10mohi6/bitmex-backtest-python)
 [![Build Status](https://travis-ci.com/10mohi6/bitmex-backtest-python.svg?branch=master)](https://travis-ci.com/10mohi6/bitmex-backtest-python)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bitmex-backtest)](https://pypi.org/project/bitmex-backtest/)
+[![Downloads](https://pepy.tech/badge/bitmex-backtest)](https://pepy.tech/project/bitmex-backtest)
 
-bitmex-backtest is a python library for backtest with bitmex rest api on Python 3.6 and above.
+bitmex-backtest is a python library for backtest with bitmex fx trade rest api on Python 3.6 and above.
 
 
 ## Installation
@@ -15,10 +16,8 @@ bitmex-backtest is a python library for backtest with bitmex rest api on Python 
 
 ## Usage
 
+### basic
 ```python
-#
-# basic
-#
 from bitmex_backtest import Backtest
 
 bt = Backtest()
@@ -29,10 +28,10 @@ bt.sell_exit = bt.buy_entry = (fast_ma > slow_ma) & (fast_ma.shift() <= slow_ma.
 bt.buy_exit = bt.sell_entry = (fast_ma < slow_ma) & (fast_ma.shift() >= slow_ma.shift())
 bt.run()
 bt.plot()
+```
 
-#
-# advanced
-#
+### advanced
+```python
 from bitmex_backtest import Backtest
 
 bt = Backtest(test=True)
@@ -61,7 +60,6 @@ bt.take_profit = 1000 # take profit (default=0)
 
 print(bt.run())
 bt.plot("backtest.png")
-
 ```
 
 ```python
