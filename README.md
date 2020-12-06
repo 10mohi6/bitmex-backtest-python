@@ -78,6 +78,16 @@ take profit              1.000
 ![advanced.png](https://raw.githubusercontent.com/10mohi6/bitmex-backtest-python/master/tests/advanced.png)
 
 
+## Supported indicators
+- Simple Moving Average 'sma'
+- Exponential Moving Average 'ema'
+- Moving Average Convergence Divergence 'macd'
+- Relative Strenght Index 'rsi'
+- Bollinger Bands 'bband'
+- Stochastic Oscillator 'stoch'
+- Market Momentum 'mom'
+
+
 ## Getting started
 
 For help getting started with bitmex REST API, view our online [documentation](https://www.bitmex.com/app/restAPI).
