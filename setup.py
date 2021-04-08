@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="bitmex-backtest",
-    version="0.1.2",
+    version="0.1.3",
     description="bitmex-backtest is a python library \
         for backtest with bitmex fx trade rest api on Python 3.6 and above.",
     long_description=open("README.md").read(),
@@ -22,6 +22,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "Intended Audience :: Developers",
         "Intended Audience :: Financial and Insurance Industry",
         "Operating System :: OS Independent",
