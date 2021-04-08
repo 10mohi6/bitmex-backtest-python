@@ -4,7 +4,7 @@ setup(
     name="bitmex-backtest",
     version="0.1.3",
     description="bitmex-backtest is a python library \
-        for backtest with bitmex fx trade rest api on Python 3.6 and above.",
+        for backtest with bitmex fx trade rest api on Python 3.7 and above.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     license="MIT",
@@ -14,12 +14,11 @@ setup(
     keywords="bitmex backtest api python trade fx",
     packages=find_packages(),
     install_requires=["requests", "numpy", "pandas", "matplotlib"],
-    python_requires=">=3.6.0",
+    python_requires=">=3.7.0",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
