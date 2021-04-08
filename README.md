@@ -7,7 +7,7 @@
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bitmex-backtest)](https://pypi.org/project/bitmex-backtest/)
 [![Downloads](https://pepy.tech/badge/bitmex-backtest)](https://pepy.tech/project/bitmex-backtest)
 
-bitmex-backtest is a python library for backtest with bitmex fx trade rest api on Python 3.6 and above.
+bitmex-backtest is a python library for backtest with bitmex fx trade rest api on Python 3.7 and above.
 
 
 ## Installation
